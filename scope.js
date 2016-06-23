@@ -1,3 +1,4 @@
+(function(){
 var score = 0;
 
 function increaseScore() {
@@ -9,7 +10,7 @@ function decreaseScore() {
 }
 
 function run(){
-  (function(){
+  
     increaseScore();
-     })();
 }
+})();
